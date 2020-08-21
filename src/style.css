@@ -270,3 +270,40 @@ body, html {
     transform: rotate(-29deg);
   }
 }
+#rays{
+  position: absolute;
+  width: 550px;
+  bottom: 99px;
+  left: 350px;
+  opacity: .6;
+}
+
+#frame_win{
+  position: absolute;
+  left: 388px;
+  bottom: 196px;
+  filter: hue-rotate(152deg);
+}
+#win {
+  position: absolute;
+  left: 457px;
+  bottom: 271px;
+  font-size: 177px;
+  transform: rotate(-14deg);
+  color: darkgreen;
+  font-family: revert; 
+}
+#frame_fail{
+  position: absolute;
+  left: 388px;
+  bottom: 196px;
+}
+#fail{
+  position: absolute;
+  left: 457px;
+  bottom: 271px;
+  font-size: 177px;
+  transform: rotate(-14deg);
+  color: red;
+  font-family: revert;
+}
