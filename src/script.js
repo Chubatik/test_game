@@ -110,7 +110,7 @@ $(document).ready(function(){
     function showFinalScene(){
         blt2.fadeOut("slow");
         bg2.fadeOut("slow", function(){
-            bg.fadeIn(500, function(){
+            bg.fadeIn(1000, function(){
                 logo.fadeIn("fast");
                 table.fadeIn("fast");
                 roll.fadeIn("fast");

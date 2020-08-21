@@ -4,7 +4,7 @@ body, html {
   }
  
   .bg {
-    background: url(../src/main_scene/Background_main.png);
+    background: url(../src/final_screen/Background_final.png);
     height: 91%;
     margin: 0;
     background-position: center;
