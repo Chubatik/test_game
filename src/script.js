@@ -11,6 +11,7 @@ $(document).ready(function(){
     var spanFinal = $("#final");
     var btnReset = $("#reset");
     var shadow = $("#shadow");
+    var sparkle = $(".sparkle")
     function hideFinal_scene(){
         bg.hide();
         logo.hide();
@@ -23,10 +24,21 @@ $(document).ready(function(){
         spanFinal.hide();
         btnReset.hide();
         shadow.hide();
+        sparkle.hide();
+       $("#blitzy_main").hide();
+       $("#hand_main").hide();
+       $("#info").hide();
     }
     hideFinal_scene();
 //
     //Main_scene
+   
+    setTimeout(()=>{
+        $("#blitzy_main").fadeIn("fast");
+        $("#hand_main").fadeIn("fast");
+        $("#info").fadeIn("fast");
+
+    },1500)
     var bg2 = $(".bg2");
     var blt2 = $(".blt2");
 
@@ -98,11 +110,11 @@ $(document).ready(function(){
     }
     
     //Go to main_scene
+    
     btnReset.click(function(){
         hideFinal_scene();
         location.reload();
-        bg2.fadeIn(100);
-        blt2.fadeIn(100);
+        
 
     });
     ///
@@ -121,6 +133,7 @@ $(document).ready(function(){
                     spanFinal.fadeIn("slow");
                     shadow.fadeIn("slow", function(){
                         btnReset.fadeIn("slow");
+                        sparkle.fadeIn("slow");
                     });
                 });
             });

@@ -1,11 +1,14 @@
+
+
 body, html {
     height: 100%;
     margin: auto;
+    width: 500px;
   }
  
   .bg {
     background: url(../src/final_screen/Background_final.png);
-    height: 91%;
+    height: 100%;
     margin: 0;
     background-position: center;
     /* background-repeat: no-repeat; */
@@ -17,7 +20,7 @@ body, html {
   #logo{
     position: absolute;
     top: 40px;
-    left: 560px;
+    left: 630px;
     height: 150px;
     
   }
@@ -25,7 +28,7 @@ body, html {
   #candace{
     position: absolute ; 
     top: 100px;
-    left: 380px;
+    left: 450px;
     height: 520px;
   
     
@@ -35,7 +38,7 @@ body, html {
     bottom: 0px;
     height: 350px;
     width: 200px;
-    left: 520px;
+    left: 590px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     
@@ -44,7 +47,7 @@ body, html {
     position: absolute;
     bottom: 0;
     height: 100px;
-    width: 100%;
+    width: 500px;
   }
   @keyframes btnAnimate{
     0%   {transform: scale(1);}
@@ -57,7 +60,7 @@ body, html {
     width: 300px;
     height: 75px;
     bottom: 81px;
-    left: 407px;
+    left: 477px;
   }
   #final {
     animation: btnAnimate 2s infinite;
@@ -66,7 +69,7 @@ body, html {
     width: 300px;
     height: 75px;
     bottom: 70px;
-    left: 407px;
+    left: 477px;
     font-size: 42px;
     color: #ffffff;
     font-weight: 800;
@@ -77,19 +80,19 @@ body, html {
     position: absolute;
     width: 160px;
     bottom: 30px;
-    left: 350px;
+    left: 420px;
   }
   #roll{
     position: absolute;
     width: 88px;
     bottom: 30px;
-    left: 721px;
+    left: 800px;
   }
   #reset{
     position: absolute;
     width: 44px;
     bottom: 38px;
-    left: 671px
+    left: 741px
   }
   #reset:hover{
     transform: scale(1.05);
@@ -101,7 +104,7 @@ body, html {
     width: 140px;
     height: 70px;
     bottom: 16px;
-    left: 545px;
+    left: 615px;
     opacity: 0.45;
 }
   
@@ -117,7 +120,7 @@ body, html {
   position: absolute;
   bottom: 0;
   height: 323px;
-  width: 100%;
+  width: 500px;
 }
 #logo_main{
   position: absolute;
@@ -129,13 +132,13 @@ body, html {
   position: absolute;
   width: 160px;
   bottom: 200px;
-  left: 329px;
+  left: 400px;
 }
 #roll_main{
   position: absolute;
     width: 88px;
     bottom: 65px;
-    left: 486px;
+    left: 542px;
 }
 #cup_main{
   position: absolute;
@@ -149,7 +152,7 @@ body, html {
     width: 70px;
     height: auto;
     bottom: 88px;
-    left: 418px;
+    left: 480px;
 }
 #dish_main_1{
   position: absolute;
@@ -162,32 +165,32 @@ body, html {
   position: absolute;
   width: 150px;
   bottom: 202px;
-  left: 556px;
+  left: 579px;
 }
 #dish_main_3{
   position: absolute;
   width: 150px;
   height: auto;
   bottom: 265px;
-  left: 668px;
+  left: 700px;
 }
 #blitzy_main{
   position: absolute;
   bottom: 0px;
   width: 150px;
-  left: 836px;
+  left: 750px;
 }
 #hand_main{
   position: absolute;
-  bottom: 60px;
+  bottom: 34px;
   width: 71px;
-  left: 815px;
+  left: 728px;
   transform: rotate(-7deg);
   animation: handAnimate 1.5s infinite;
 }
 
 
-#info{
+#info {
   font-size: 28px;
   line-height: 37px;
   color: #672900;
@@ -198,10 +201,10 @@ body, html {
   width: 118px;
   height: 108px;
   position: absolute;
-  bottom: 116px;
+  bottom: 102px;
   border-radius: 10px;
   background-color: white;
-  left: 734px;
+  left: 651px;
   transform: rotate(-18deg);
   animation: infoAnimate 1.5s infinite;
 }
@@ -229,13 +232,13 @@ body, html {
   position: absolute;
   bottom: 219px;
   width: 95px;
-  left: 590px;
+  left: 610px;
 }
 #dish_3{
   position: absolute;
   bottom: 280px;
   width: 95px;
-  left: 695px;
+  left: 720px;
 
 }
 #led_1{
@@ -251,13 +254,13 @@ body, html {
   position: absolute;
     bottom: 209px;
     width: 128px;
-    left: 568px;
+    left: 590px;
 }
 #led_3{
   position: absolute;
   bottom: 271px;
   width: 128px;
-  left: 680px;
+  left: 710px;
 }
 @keyframes ledAnimate{
   50%{
@@ -272,21 +275,21 @@ body, html {
 }
 #rays{
   position: absolute;
-  width: 550px;
-  bottom: 99px;
-  left: 350px;
-  opacity: .6;
+  width: 882px;
+  bottom: 0px;
+  left: 223px;
+  opacity: .4;
 }
 
 #frame_win{
   position: absolute;
-  left: 388px;
+  left: 400px;
   bottom: 196px;
   filter: hue-rotate(152deg);
 }
 #win {
   position: absolute;
-  left: 457px;
+  left: 463px;
   bottom: 271px;
   font-size: 177px;
   transform: rotate(-14deg);
@@ -295,12 +298,12 @@ body, html {
 }
 #frame_fail{
   position: absolute;
-  left: 388px;
+  left: 400px;
   bottom: 196px;
 }
 #fail{
   position: absolute;
-  left: 457px;
+  left: 463px;
   bottom: 271px;
   font-size: 177px;
   transform: rotate(-14deg);
